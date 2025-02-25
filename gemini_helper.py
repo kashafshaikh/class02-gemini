@@ -1,4 +1,3 @@
-
 import google.generativeai as genai  # Importing the library
 import os
 from dotenv import load_dotenv
