@@ -16,7 +16,7 @@ st.markdown("""
             box-shadow: 2px 2px 10px rgba(0,0,0,0.1);
         }
         .response-box {
-            background-color: #e3f2fd;
+            background-color: #4CA5E4;
             padding: 15px;
             border-radius: 8px;
             margin-top: 10px;
