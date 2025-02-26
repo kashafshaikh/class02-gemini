@@ -12,7 +12,7 @@
 # genai.configure(api_key=API_KEY)
 
 # def get_gemini_response(prompt):
-#     model = genai.GenerativeModel("gemini-1.5-pro")  # Use correct model name
+#     model = genai.GenerativeModel("gemini-2.0-flash")  # Use correct model name
 #     response = model.generate_content(prompt)
 #     return response.text
 
@@ -27,6 +27,7 @@ API_KEY = st.secrets["GEMINI_API_KEY"]
 genai.configure(api_key=API_KEY)
 
 def get_gemini_response(prompt):
-    model = genai.GenerativeModel("gemini-1.5-pro")  # Use correct model name
+    model = genai.GenerativeModel("gemini-2.0-flash")  # Use correct model name
     response = model.generate_content(prompt)
     return response.text
+
